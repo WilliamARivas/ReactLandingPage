@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.container{
+    max-width: 1200px;
+}
+.nav-link {
+    padding-left: 55px
+}
+.nav-item {
+    padding-left: 15px
+}
+.navbar-brand{
+    padding-left: 10px
+}
+
+

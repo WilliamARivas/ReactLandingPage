@@ -4,6 +4,7 @@ import React from "react";
 import MyNavBar from "./navbar.jsx";
 import MyJumboTron from "./jumbotron.jsx";
 import MyFooter from "./footer.jsx";
+import MyCard from "./card.jsx";
 
 //create your first component
 const Home = () => {
@@ -18,10 +19,10 @@ const Home = () => {
 			<br></br>
 
 			<div className="row justify-content-around" id="cards">
-				<div className="col-2">1</div>
-				<div className="col-2">2</div>
-				<div className="col-2">3</div>
-				<div className="col-2">4</div>		
+				<MyCard/>
+				<MyCard/>
+				<MyCard/>
+				<MyCard/>	
 			</div>
 		</div>
 		<MyFooter/>	
